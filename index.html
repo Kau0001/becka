@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenho algo especial pra você, amor...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgba(68, 4, 65, 0.2);
+            text-align: center;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #d73e6e;
+            font-size: 3rem;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 1.5rem;
+            width: 80%;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+        button {
+            background-color: #d74170;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s ease, transform 0.2s;
+        }
+        button:hover {
+            background-color: #f76b8a;
+            transform: scale(1.1);
+        }
+        #pedido {
+            display: none;
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #d73e6e;
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Ajustes para telas menores */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+            button {
+                font-size: 1.2rem;
+                padding: 12px 25px;
+            }
+            #pedido {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Eu queria fazer um presente, me esforcei muito...</h1>
+    <p class="message">
+        Desde que te conheci, minha vida tem sido mais feliz, mais bonita e cheia de sorrisos. 
+        Cada momento ao seu lado me faz querer estar ainda mais perto. Você me faz feliz de um jeito único, 
+        e eu não quero que isso seja só um capítulo, mas sim uma história inteira. Então, que tal fazermos isso oficial?
+    </p>
+    
+    <button onclick="pedirNamoro()">Clique aqui para ver o que tem!!!</button>
+
+    <div id="pedido">
+        <h2>Quer namorar comigo? 💍❤️</h2>
+    </div>
+
+    <script>
+        function pedirNamoro() {
+            document.getElementById("pedido").style.display = "block";
+        }
+    </script>
+</body>
+</html>
+
+
+    <script>
+        function pedirNamoro() {
+            document.getElementById("pedido").style.display = "block";
+        }
+    </script>
+</body>
+</html>
